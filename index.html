@@ -1,116 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-     <head>
-          <meta charset="UTF-8" />
-          <title>Pingwiny</title>
-		
-		  	<link rel="stylesheet" href="style.css" type="text/css" />
-     </head>
-     <body>
-	 <div id="main">
-	 
-	 <div id="logo">
-	 <span id="element1">P</span><span id="element2">I</span><span id="element3">N</span><span id="element4">G</span><span id="element5">W</span><span id="element6">I</span><span id="element7">N</span><span id="element8">Y</span>
-	 </div>
-	 
-	 <div id="menu">
-		
-		<ol>
-		<li> <a href ="#"> Strona główna </a></li>
-		<li> <a href ="#"> Występowanie </a>
-			<ul>
-			<li> <a href ="#"> Antarktyda </a></li>
-			<li> <a href ="#"> Oceania </a></li>
-			<li> <a href ="#"> Ameryka Płd </a></li>
-			</ul>
-		</li>
-		<li> <a href ="#"> Charakterystyka </a>
-			<ul>
-			<li> <a href ="#"> Cechy Charakterystyczne </a></li>
-			<li> <a href ="#"> Systematyka </a></li>
-			<li> <a href ="#"> Ewolucja </a></li>
-			</ul>
-		</li>
-		
-		<li> <a href ="#"> Zagrożone gatunki </a>
-			<ul>
-			<li> <a href ="#"> Pingwin adeli </a></li>
-			<li> <a href ="#"> Pingwin cesarski </a></li>
-			<li> <a href ="#"> Pingwin królewski </a></li>
-			<li> <a href ="#"> Pingwin równikowy </a></li>
-			</ul>
-		</li>
-			</ol>
-			
-	 
-	 </div>
-	 
-		<div id="frame1"> 
-		</div>
-	 
-	 
-	 <div id ="topbar">
-	 
-	 <div id = "topbarL">
-	 
-		
-			<ul id="lista">
-			<li data-tooltip-1="1" data-tooltip-2="Maecenas vitae diam justo. Donec accumsan pretium ante dignissim aliquam. Integer sit amet risus eget odio dignissim pharetra. Nunc non interdum ligula. Aenean imperdiet tellus eget augue viverra, nec lacinia diam molestie.">
-      <a href="#">
-        <span>1</span>
-      </a>
-			<li data-tooltip-1="2" data-tooltip-2="Maecenas vitae diam justo. Donec accumsan pretium ante dignissim aliquam. Integer sit amet risus eget odio dignissim pharetra. Nunc non interdum ligula. Aenean imperdiet tellus eget augue viverra, nec lacinia diam molestie.">
-      <a href="#">
-        <span>2</span>
-      </a>
-			<li data-tooltip-1="3" data-tooltip-2="Maecenas vitae diam justo. Donec accumsan pretium ante dignissim aliquam. Integer sit amet risus eget odio dignissim pharetra. Nunc non interdum ligula. Aenean imperdiet tellus eget augue viverra, nec lacinia diam molestie. ">
-      <a href="#">
-        <span>3</span>
-      </a>
-			<li data-tooltip-1="4" data-tooltip-2="Maecenas vitae diam justo. Donec accumsan pretium ante dignissim aliquam. Integer sit amet risus eget odio dignissim pharetra. Nunc non interdum ligula. Aenean imperdiet tellus eget augue viverra, nec lacinia diam molestie.">
-      <a href="#">
-        <span>4</span>
-      </a>
-	 </ul>
-	 </div>
-	 
-		<div id ="topbarR">
-		
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo mollis odio at malesuada.
- Donec in risus quis purus fermentum vehicula. Ut mattis dui augue, at tincidunt dolor facilisis ut. 
- Phasellus ultricies vitae justo ac pellentesque. Nullam ac nibh dignissim, blandit leo sed, vehicula nunc. 
- Praesent augue elit, consequat a semper vel, dapibus vitae sem. Praesent id viverra nunc.
- Phasellus auctor ligula ut justo lacinia gravida ut vel mauris. Quisque laoreet purus malesuada accumsan dignissim.</p>
+<head>
+    <meta charset="utf-8">   
+    <title>Premier League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-<p>Praesent blandit metus eu felis tempor, sed posuere arcu pulvinar. Nam eu lectus faucibus, scelerisque quam vitae, condimentum dolor.
- Donec in consequat elit. Vestibulum at purus in quam commodo posuere non nec ligula. Sed pretium tortor tortor.
- Maecenas tincidunt massa mauris, eget venenatis orci tincidunt ac.
- Mauris non maximus tortor. Integer quis dui vehicula, posuere nulla nec, suscipit dolor. Ut at mi lobortis, vestibulum ante eget, dapibus nibh.
- Sed sollicitudin sodales sollicitudin. Fusce tincidunt sagittis tristique. Sed id augue quis purus consectetur fringilla a at enim.
- Maecenas finibus, lorem eu gravida cursus, augue tortor vehicula neque, sollicitudin porta diam nibh a sapien.</p>
+<body>
+    <button>Wciśnij</button>
+    <div class="intro">
+        <div class="intro__panel--left"></div>
+        <div class="intro__panel--right">
+            <div class="intro__league-badge-wrapper">
+                <div class="intro__league-badge-outer">
+                    <img src="premier-league-logo.png" alt="Premier League Badge" class="intro__league-logo">
+                    <img src="premier-league-oneline-badge.png" alt="Premier League Badge" class="intro__league-badge">
+                </div>
+            </div>
+        </div>
+        <div class="intro__teams-wrapper">
+            <div class="intro__teams">
+                <div class="intro__team--home">
+                    <div class="intro__team-name">
+                        <div class="intro__field-info">Live from Stamford Bridge</div>
+                        <div class="intro__team-name-label">Chelsea</div>
+                    </div>
+                    <div class="intro__team-badge-wrapper">
+                        <img src="blues.png" alt="Chelsea FC badge" class="intro__team-badge">
+                    </div>
+                </div>
+                <div class="intro__team--away">
+                    <div class="intro__team-name">Wolves</div>
+                    <div class="intro__team-badge-wrapper">
+                        <img src="wilk.png" alt="Wolves badge" class="intro__team-badge2">
+                    </div>
+                </div>
+                <div class="intro__hashtag">#CheWol</div>
+            </div>
+        </div>
+				
+    </div>
+    <script src="scripts.js"></script>
+</body>
 
-<p>Curabitur at urna nec velit commodo viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-Fusce eleifend non eros sit amet laoreet. Nullam sagittis urna sed risus ullamcorper tristique. Proin sed vestibulum purus.
- Nunc lacus dui, posuere et ex at, volutpat volutpat justo. Fusce quis mi nec libero euismod pulvinar a quis orci. </p>
-		</div>
-	 
-	 </div>
-	 
-			<div id="frame2">
-			</div>
-	
-    <script>
-    function showTime() {
-        var d = new Date();
-        document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-    }
-    setInterval(showTime, 1000);
-    </script>
-     
-    <p><span id="clock"></span></p>
-	
-	 </div>
-	
-     </body>
 </html>
